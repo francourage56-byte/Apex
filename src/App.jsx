@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import BentoGrid from "./components/BentoGrid";
 import CodeShowcase from "./components/CodeShowcase ";
 import SystemMetrics from "./components/SystemMetrics";
+import TechSpaceGrid from "./components/TechSpecGrid";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <BentoGrid />
         <CodeShowcase />
         <SystemMetrics />
+        <TechSpaceGrid />
       </main>
     </div>
   );
