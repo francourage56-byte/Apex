@@ -4,8 +4,9 @@ import BentoGrid from "./components/BentoGrid";
 import CodeShowcase from "./components/CodeShowcase ";
 import SystemMetrics from "./components/SystemMetrics";
 import TechSpaceGrid from "./components/TechSpecGrid";
+import PricingGrid from "./components/PricingGrid";
 
-export default function App() {
+function App() {
   return (
     <div className="min-h-screen flex flex-col justify-between bg-[#090d16] text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
       <Header />
@@ -15,7 +16,9 @@ export default function App() {
         <CodeShowcase />
         <SystemMetrics />
         <TechSpaceGrid />
+        <PricingGrid />
       </main>
     </div>
   );
 }
+export default App;
